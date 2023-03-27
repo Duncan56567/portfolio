@@ -22,12 +22,10 @@ export const Project = () => {
               </a>
             </div>
             <div className="text">
-              <p className="textTitle">Hawaii</p>
+              <p className="textTitle">HAWAII</p>
               <p className="content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                ratione aperiam facilis soluta accusantium quasi maxime vitae
-                nesciunt, quaerat illo fuga eligendi delectus debitis, impedit
-                consequuntur laboriosam maiores repellat porro.
+                Built the website of HAWAII with HTML. It is a travel equipment
+                rental site which contains all you need during your travel.
               </p>
               <div className="skills">
                 <div className="skill">HTML</div>
@@ -66,9 +64,8 @@ export const Project = () => {
             <div className="text">
               <p className="textTitle">Photo Web</p>
               <p className="content">
-                Photo Web allows user to search various photograph and download
-                for free. Lorem, ipsum dolor sit amet consectetur adipisicing
-                elit. Doloribus, quae.
+                Photo Web is an user-friendly platform which allows user to
+                search various photographs and download for free.
               </p>
               <div className="skills">
                 <div className="skill">React</div>

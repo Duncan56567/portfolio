@@ -1,0 +1,44 @@
+.about {
+  display: flex;
+  padding: 8rem 0;
+  width: 100%;
+  justify-content: center;
+}
+.about .container {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.about .container .leftSec img {
+  width: 28rem;
+  border-radius: 50px;
+}
+.about .container .rightSec {
+  align-items: center;
+  max-width: 32rem;
+}
+.about .container .rightSec .note {
+  color: #147efb;
+}
+.about .container .rightSec .title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.about .container .rightSec .content {
+  color: #919191;
+}
+
+@media (max-width: 600px) {
+  .about {
+    padding: 4rem 0;
+  }
+  .about .container {
+    margin: 1.2rem;
+    text-align: center;
+  }
+  .about .container .leftSec img {
+    width: 15rem;
+  }
+}/*# sourceMappingURL=about.css.map */

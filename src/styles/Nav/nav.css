@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+.navbar a {
+  color: #2d2e32;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar .navName {
+  font-size: 1.5rem;
+}
+.navbar .navList {
+  list-style: none;
+  display: flex;
+  font-weight: 600;
+  gap: 2rem;
+  align-items: center;
+}
+.navbar .navList li {
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar .navList li a {
+  text-decoration: none;
+}
+.navbar .navList li a:hover {
+  transition: all 0.3s ease-out;
+  filter: invert(36%) sepia(59%) saturate(1635%) hue-rotate(191deg) brightness(100%) contrast(105%);
+}
+.navbar .navList li a:-webkit-any-link {
+  color: #2d2e32;
+}
+
+@media (max-width: 650px) {
+  .navbar .navList {
+    display: none;
+  }
+}/*# sourceMappingURL=nav.css.map */

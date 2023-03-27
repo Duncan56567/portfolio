@@ -1,0 +1,64 @@
+.contact {
+  padding: 8rem 0;
+  display: flex;
+}
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60rem;
+}
+.contact .container .top .note {
+  color: #147efb;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.contact .container .top .title {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.contact .container .bottom {
+  display: flex;
+  gap: 5rem;
+}
+.contact .container .bottom .section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact .container .bottom .section .iconContainer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 50%;
+}
+.contact .container .bottom .section .iconContainer .icon {
+  width: 3rem !important;
+  filter: invert(36%) sepia(59%) saturate(1635%) hue-rotate(191deg) brightness(100%) contrast(105%);
+}
+.contact .container .bottom .section .content {
+  color: #919191;
+}
+
+@media (max-width: 1100px) {
+  .contact .container {
+    width: 35rem;
+  }
+  .contact .container .top .title {
+    margin-bottom: 4rem;
+  }
+  .contact .container .bottom {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+@media (max-width: 600px) {
+  .contact {
+    padding: 4rem 0;
+  }
+  .contact .container .top {
+    text-align: center;
+  }
+  .contact .container .bottom {
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=contact.css.map */
