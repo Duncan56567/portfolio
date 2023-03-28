@@ -132,6 +132,7 @@
     font-size: 2rem;
   }
   .topSec .text .title img {
+    margin-left: 0.25rem;
     width: 1.5rem;
   }
   .topSec .text .content {
