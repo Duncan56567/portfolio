@@ -14,7 +14,7 @@ export const Project = () => {
           <div className="pro">
             <div className="imgContainer">
               <a
-                href="https://github.com/Duncan56567"
+                href="https://hawaiirentalweb.vercel.app/"
                 target={"_blank"}
                 rel="noreferrer"
               >
@@ -33,14 +33,14 @@ export const Project = () => {
               </div>
               <div className="links">
                 <a
-                  href="https://github.com/Duncan56567"
+                  href="https://github.com/Duncan56567/Hawaii"
                   target={"_blank"}
                   rel="noreferrer"
                 >
                   Code <Github className="github" />
                 </a>
                 <a
-                  href="https://github.com/Duncan56567"
+                  href="https://hawaiirentalweb.vercel.app/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
@@ -54,7 +54,7 @@ export const Project = () => {
           <div className="pro" id="reverse">
             <div className="imgContainer">
               <a
-                href="https://github.com/Duncan56567"
+                href="https://photoweb.vercel.app/"
                 target={"_blank"}
                 rel="noreferrer"
               >
@@ -73,14 +73,14 @@ export const Project = () => {
               </div>
               <div className="links">
                 <a
-                  href="https://github.com/Duncan56567"
+                  href="https://github.com/Duncan56567/photo-web"
                   target={"_blank"}
                   rel="noreferrer"
                 >
                   Code <Github className="github" />
                 </a>
                 <a
-                  href="https://github.com/Duncan56567"
+                  href="https://photoweb.vercel.app/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
