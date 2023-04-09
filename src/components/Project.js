@@ -10,8 +10,50 @@ export const Project = () => {
         <p className="note">PORTFOLIO</p>
         <p className="title">Each project is a unique piece of development🧩</p>
         <div className="projectContainer">
-          {/* project1 */}
+          {/* project 3 */}
           <div className="pro">
+            <div className="imgContainer">
+              <a
+                href="https://groodle.vercel.app/"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <img src={require("../images/groodle.png")} alt="" />
+              </a>
+            </div>
+            <div className="text">
+              <p className="textTitle">Groodle</p>
+              <p className="content">
+                Groodle is a social website which provides a platform for users
+                to share their photograph. You can download your favorite
+                pictures or save favorite posts for viewing at any time.
+              </p>
+              <div className="skills">
+                <div className="skill">React</div>
+                <div className="skill">Tailwind</div>
+                <div className="skill">Sanity</div>
+              </div>
+              <div className="links">
+                <a
+                  href="https://github.com/Duncan56567/groodle"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  Code <Github className="github" />
+                </a>
+                <a
+                  href="https://groodle.vercel.app/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  Live Demo
+                  <Arrow className="arrow" />
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* project1 */}
+          <div className="pro" id="reverse">
             <div className="imgContainer">
               <a
                 href="https://hawaiirentalweb.vercel.app/"
@@ -51,7 +93,7 @@ export const Project = () => {
             </div>
           </div>
           {/* project 2 */}
-          <div className="pro" id="reverse">
+          <div className="pro">
             <div className="imgContainer">
               <a
                 href="https://photoweb.vercel.app/"
