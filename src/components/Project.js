@@ -25,7 +25,7 @@ export const Project = () => {
               <p className="textTitle">Groodle</p>
               <p className="content">
                 Groodle is a social website which provides a platform for users
-                to share their photograph. You can download your favorite
+                to share their photographs. You can download your favorite
                 pictures or save favorite posts for viewing at any time.
               </p>
               <div className="skills">
